@@ -1,0 +1,503 @@
+genero,idade,nivel_de_pressao_academica,duracao_do_sono,voce_ja_teve_pensamentos_suicidas
+Homem,28,2.0,7-8 horas,Sim
+Homem,28,4.0,5-6 horas,Sim
+Homem,25,1.0,5-6 horas,Sim
+Homem,23,1.0,Mais de 8 horas,Sim
+Mulher,31,1.0,Mais de 8 horas,Sim
+Homem,19,4.0,5-6 horas,Sim
+Mulher,34,4.0,Mais de 8 horas,Sim
+Mulher,20,4.0,Mais de 8 horas,Sim
+Mulher,33,1.0,Mais de 8 horas,Não
+Homem,33,4.0,Menos de 5 horas,Sim
+Mulher,31,5.0,5-6 horas,Sim
+Homem,24,2.0,7-8 horas,Sim
+Mulher,23,5.0,Menos de 5 horas,Sim
+Homem,25,1.0,5-6 horas,Sim
+Homem,21,5.0,Mais de 8 horas,Sim
+Homem,28,5.0,5-6 horas,Sim
+Homem,23,5.0,Mais de 8 horas,Não
+Mulher,23,1.0,Menos de 5 horas,Sim
+Mulher,20,5.0,Mais de 8 horas,Sim
+Homem,29,4.0,Mais de 8 horas,Sim
+Homem,31,2.0,Mais de 8 horas,Não
+Homem,24,3.0,Mais de 8 horas,Sim
+Homem,31,2.0,Mais de 8 horas,Não
+Mulher,33,3.0,7-8 horas,Não
+Mulher,33,2.0,7-8 horas,Sim
+Homem,31,2.0,7-8 horas,Não
+Homem,30,3.0,7-8 horas,Sim
+Homem,21,5.0,7-8 horas,Não
+Mulher,29,3.0,Menos de 5 horas,Sim
+Mulher,34,3.0,Menos de 5 horas,Sim
+Mulher,20,3.0,Mais de 8 horas,Não
+Mulher,33,2.0,Menos de 5 horas,Sim
+Homem,32,5.0,5-6 horas,Sim
+Mulher,21,5.0,7-8 horas,Não
+Homem,26,5.0,Menos de 5 horas,Sim
+Homem,26,5.0,7-8 horas,Não
+Mulher,22,1.0,Menos de 5 horas,Não
+Homem,26,4.0,Menos de 5 horas,Não
+Homem,25,1.0,7-8 horas,Não
+Mulher,21,3.0,7-8 horas,Sim
+Homem,29,1.0,7-8 horas,Não
+Homem,22,1.0,7-8 horas,Não
+Homem,21,3.0,7-8 horas,Sim
+Homem,31,5.0,5-6 horas,Não
+Mulher,24,1.0,5-6 horas,Não
+Homem,20,3.0,Mais de 8 horas,Não
+Mulher,31,1.0,7-8 horas,Não
+Homem,21,1.0,5-6 horas,Sim
+Homem,24,2.0,5-6 horas,Não
+Homem,34,3.0,7-8 horas,Não
+Mulher,25,5.0,Menos de 5 horas,Não
+Homem,27,2.0,5-6 horas,Sim
+Mulher,32,2.0,5-6 horas,Não
+Homem,26,4.0,5-6 horas,Não
+Homem,23,2.0,Menos de 5 horas,Não
+Homem,22,1.0,Mais de 8 horas,Não
+Homem,29,3.0,Mais de 8 horas,Sim
+Homem,20,4.0,Menos de 5 horas,Sim
+Homem,28,2.0,Mais de 8 horas,Sim
+Mulher,30,5.0,Mais de 8 horas,Sim
+Mulher,29,4.0,Menos de 5 horas,Não
+Homem,29,4.0,7-8 horas,Sim
+Homem,24,1.0,5-6 horas,Sim
+Homem,19,2.0,Menos de 5 horas,Sim
+Homem,29,2.0,7-8 horas,Não
+Mulher,20,1.0,Menos de 5 horas,Não
+Mulher,31,2.0,Menos de 5 horas,Sim
+Mulher,27,3.0,7-8 horas,Não
+Mulher,27,2.0,Menos de 5 horas,Sim
+Homem,30,4.0,Menos de 5 horas,Não
+Homem,21,3.0,Mais de 8 horas,Sim
+Mulher,27,4.0,7-8 horas,Sim
+Homem,28,1.0,Mais de 8 horas,Sim
+Homem,26,3.0,Mais de 8 horas,Sim
+Homem,33,3.0,7-8 horas,Não
+Mulher,31,1.0,7-8 horas,Não
+Mulher,32,4.0,5-6 horas,Não
+Homem,28,3.0,5-6 horas,Sim
+Homem,24,4.0,Mais de 8 horas,Não
+Homem,19,3.0,Mais de 8 horas,Sim
+Homem,31,1.0,7-8 horas,Não
+Mulher,22,3.0,7-8 horas,Sim
+Mulher,24,5.0,5-6 horas,Não
+Mulher,33,2.0,Menos de 5 horas,Sim
+Mulher,34,3.0,7-8 horas,Sim
+Homem,18,3.0,7-8 horas,Sim
+Mulher,32,5.0,7-8 horas,Sim
+Mulher,18,2.0,7-8 horas,Não
+Homem,30,1.0,Menos de 5 horas,Não
+Homem,25,3.0,Mais de 8 horas,Sim
+Homem,33,4.0,5-6 horas,Sim
+Mulher,22,1.0,Menos de 5 horas,Não
+Mulher,23,4.0,Mais de 8 horas,Não
+Mulher,26,3.0,Mais de 8 horas,Não
+Mulher,27,5.0,Menos de 5 horas,Não
+Mulher,32,1.0,Mais de 8 horas,Sim
+Homem,26,1.0,Menos de 5 horas,Não
+Homem,33,4.0,7-8 horas,Sim
+Homem,21,3.0,5-6 horas,Não
+Homem,30,5.0,5-6 horas,Sim
+Mulher,24,5.0,7-8 horas,Não
+Mulher,26,4.0,Mais de 8 horas,Não
+Mulher,20,2.0,Mais de 8 horas,Sim
+Mulher,29,3.0,7-8 horas,Sim
+Homem,19,2.0,5-6 horas,Não
+Mulher,19,1.0,5-6 horas,Sim
+Mulher,25,2.0,Mais de 8 horas,Não
+Homem,18,5.0,5-6 horas,Não
+Mulher,22,2.0,Mais de 8 horas,Sim
+Homem,18,3.0,Menos de 5 horas,Sim
+Mulher,20,1.0,7-8 horas,Sim
+Homem,28,2.0,5-6 horas,Não
+Mulher,21,1.0,7-8 horas,Não
+Mulher,20,1.0,7-8 horas,Não
+Mulher,30,4.0,Mais de 8 horas,Não
+Homem,31,3.0,Menos de 5 horas,Sim
+Homem,22,4.0,Mais de 8 horas,Não
+Homem,25,3.0,7-8 horas,Sim
+Homem,30,5.0,Menos de 5 horas,Não
+Homem,30,1.0,Menos de 5 horas,Sim
+Mulher,26,4.0,5-6 horas,Sim
+Homem,28,3.0,Mais de 8 horas,Sim
+Mulher,30,3.0,5-6 horas,Sim
+Mulher,26,2.0,Mais de 8 horas,Sim
+Mulher,29,5.0,7-8 horas,Sim
+Mulher,28,1.0,5-6 horas,Sim
+Homem,20,4.0,Menos de 5 horas,Não
+Homem,34,5.0,Menos de 5 horas,Sim
+Mulher,33,4.0,5-6 horas,Sim
+Mulher,19,4.0,5-6 horas,Não
+Homem,27,4.0,Mais de 8 horas,Sim
+Mulher,22,3.0,Menos de 5 horas,Sim
+Homem,25,5.0,Menos de 5 horas,Não
+Mulher,20,2.0,7-8 horas,Sim
+Mulher,29,2.0,Menos de 5 horas,Sim
+Mulher,34,3.0,Mais de 8 horas,Sim
+Homem,27,5.0,5-6 horas,Sim
+Mulher,26,3.0,Menos de 5 horas,Não
+Homem,34,1.0,7-8 horas,Sim
+Mulher,24,2.0,5-6 horas,Sim
+Homem,18,3.0,5-6 horas,Sim
+Mulher,28,2.0,7-8 horas,Sim
+Homem,18,5.0,7-8 horas,Sim
+Homem,19,5.0,Mais de 8 horas,Não
+Homem,33,1.0,Menos de 5 horas,Não
+Homem,20,4.0,5-6 horas,Sim
+Homem,29,5.0,5-6 horas,Não
+Mulher,33,5.0,7-8 horas,Sim
+Homem,34,1.0,Mais de 8 horas,Sim
+Mulher,24,2.0,Mais de 8 horas,Sim
+Mulher,24,4.0,Menos de 5 horas,Não
+Mulher,25,3.0,Mais de 8 horas,Não
+Mulher,28,4.0,5-6 horas,Não
+Homem,30,1.0,5-6 horas,Sim
+Mulher,28,4.0,Mais de 8 horas,Sim
+Mulher,29,3.0,Menos de 5 horas,Não
+Mulher,34,2.0,7-8 horas,Sim
+Mulher,32,2.0,7-8 horas,Não
+Homem,24,5.0,7-8 horas,Não
+Homem,29,5.0,Mais de 8 horas,Sim
+Mulher,26,2.0,5-6 horas,Não
+Homem,29,4.0,Mais de 8 horas,Não
+Mulher,25,4.0,Menos de 5 horas,Não
+Mulher,28,5.0,5-6 horas,Sim
+Mulher,19,2.0,Mais de 8 horas,Não
+Homem,24,2.0,7-8 horas,Sim
+Mulher,20,3.0,5-6 horas,Sim
+Homem,33,2.0,Menos de 5 horas,Sim
+Homem,27,3.0,5-6 horas,Sim
+Homem,24,4.0,5-6 horas,Não
+Homem,32,3.0,Menos de 5 horas,Sim
+Homem,33,2.0,Menos de 5 horas,Sim
+Homem,27,1.0,7-8 horas,Sim
+Homem,25,5.0,Mais de 8 horas,Não
+Homem,21,1.0,Mais de 8 horas,Não
+Homem,20,2.0,Mais de 8 horas,Não
+Homem,33,3.0,Mais de 8 horas,Não
+Homem,27,2.0,Menos de 5 horas,Não
+Mulher,31,1.0,7-8 horas,Sim
+Homem,26,2.0,5-6 horas,Não
+Mulher,33,5.0,Menos de 5 horas,Não
+Mulher,18,5.0,Menos de 5 horas,Não
+Homem,22,5.0,7-8 horas,Sim
+Mulher,19,3.0,7-8 horas,Sim
+Homem,22,2.0,Menos de 5 horas,Não
+Homem,34,4.0,Menos de 5 horas,Sim
+Homem,33,5.0,5-6 horas,Sim
+Homem,20,2.0,Mais de 8 horas,Não
+Homem,22,3.0,5-6 horas,Sim
+Mulher,29,5.0,5-6 horas,Sim
+Mulher,27,2.0,Menos de 5 horas,Não
+Mulher,28,4.0,Menos de 5 horas,Não
+Mulher,30,2.0,Menos de 5 horas,Não
+Homem,34,2.0,5-6 horas,Não
+Mulher,18,4.0,Mais de 8 horas,Não
+Homem,20,3.0,Menos de 5 horas,Não
+Homem,19,5.0,Menos de 5 horas,Sim
+Homem,26,4.0,7-8 horas,Não
+Mulher,25,3.0,7-8 horas,Não
+Homem,32,5.0,Mais de 8 horas,Não
+Homem,19,4.0,Mais de 8 horas,Sim
+Homem,27,2.0,Mais de 8 horas,Não
+Mulher,24,5.0,Mais de 8 horas,Sim
+Homem,32,5.0,Mais de 8 horas,Não
+Homem,24,2.0,5-6 horas,Não
+Mulher,34,3.0,Mais de 8 horas,Sim
+Mulher,29,3.0,Mais de 8 horas,Sim
+Mulher,19,4.0,7-8 horas,Sim
+Homem,33,3.0,Mais de 8 horas,Não
+Homem,22,2.0,Menos de 5 horas,Sim
+Homem,24,1.0,Mais de 8 horas,Sim
+Homem,29,3.0,7-8 horas,Sim
+Homem,32,5.0,Menos de 5 horas,Sim
+Mulher,25,3.0,5-6 horas,Não
+Mulher,20,4.0,Mais de 8 horas,Sim
+Mulher,23,5.0,5-6 horas,Não
+Homem,27,1.0,Menos de 5 horas,Não
+Mulher,29,1.0,Menos de 5 horas,Sim
+Mulher,20,4.0,5-6 horas,Não
+Homem,34,3.0,7-8 horas,Sim
+Homem,32,3.0,5-6 horas,Sim
+Homem,33,5.0,Menos de 5 horas,Não
+Mulher,28,5.0,Menos de 5 horas,Sim
+Mulher,20,4.0,5-6 horas,Sim
+Mulher,29,3.0,5-6 horas,Não
+Mulher,25,2.0,Mais de 8 horas,Não
+Homem,23,3.0,Menos de 5 horas,Não
+Mulher,28,4.0,Menos de 5 horas,Não
+Homem,25,4.0,Menos de 5 horas,Não
+Homem,26,2.0,Mais de 8 horas,Sim
+Homem,33,4.0,7-8 horas,Sim
+Homem,27,5.0,7-8 horas,Sim
+Homem,23,3.0,5-6 horas,Não
+Homem,19,2.0,Menos de 5 horas,Não
+Mulher,25,4.0,5-6 horas,Não
+Homem,27,2.0,Menos de 5 horas,Sim
+Mulher,18,1.0,Menos de 5 horas,Não
+Homem,32,2.0,Menos de 5 horas,Sim
+Homem,28,2.0,5-6 horas,Sim
+Mulher,24,4.0,Menos de 5 horas,Sim
+Homem,28,5.0,Mais de 8 horas,Sim
+Mulher,28,5.0,Mais de 8 horas,Não
+Mulher,20,5.0,Mais de 8 horas,Não
+Homem,31,1.0,Menos de 5 horas,Sim
+Homem,30,2.0,Menos de 5 horas,Sim
+Mulher,21,1.0,Menos de 5 horas,Não
+Mulher,19,3.0,5-6 horas,Não
+Homem,23,3.0,5-6 horas,Sim
+Mulher,24,1.0,Menos de 5 horas,Não
+Mulher,34,3.0,Mais de 8 horas,Não
+Homem,20,3.0,Mais de 8 horas,Sim
+Homem,23,1.0,7-8 horas,Sim
+Mulher,34,1.0,Mais de 8 horas,Não
+Homem,33,4.0,Mais de 8 horas,Sim
+Homem,18,5.0,Mais de 8 horas,Não
+Homem,18,5.0,7-8 horas,Sim
+Homem,34,3.0,7-8 horas,Não
+Homem,34,1.0,5-6 horas,Não
+Mulher,20,4.0,7-8 horas,Sim
+Homem,34,3.0,5-6 horas,Não
+Homem,29,1.0,Mais de 8 horas,Não
+Mulher,19,4.0,Menos de 5 horas,Não
+Mulher,19,1.0,Mais de 8 horas,Não
+Homem,28,1.0,7-8 horas,Sim
+Homem,34,4.0,Mais de 8 horas,Não
+Mulher,32,5.0,Menos de 5 horas,Sim
+Mulher,25,2.0,5-6 horas,Não
+Homem,30,3.0,7-8 horas,Não
+Mulher,33,4.0,7-8 horas,Não
+Mulher,23,1.0,5-6 horas,Não
+Homem,28,5.0,Mais de 8 horas,Sim
+Homem,33,5.0,Mais de 8 horas,Sim
+Mulher,31,3.0,7-8 horas,Não
+Homem,32,3.0,7-8 horas,Sim
+Homem,30,5.0,5-6 horas,Sim
+Homem,34,1.0,7-8 horas,Não
+Homem,21,1.0,5-6 horas,Não
+Mulher,22,4.0,5-6 horas,Sim
+Homem,33,4.0,Menos de 5 horas,Sim
+Homem,23,4.0,5-6 horas,Não
+Mulher,18,4.0,7-8 horas,Não
+Homem,20,4.0,5-6 horas,Não
+Homem,29,5.0,Menos de 5 horas,Não
+Homem,18,1.0,Menos de 5 horas,Não
+Homem,28,4.0,5-6 horas,Não
+Homem,31,2.0,5-6 horas,Não
+Homem,20,1.0,Mais de 8 horas,Não
+Mulher,24,3.0,Mais de 8 horas,Sim
+Mulher,20,3.0,7-8 horas,Sim
+Mulher,28,3.0,Menos de 5 horas,Sim
+Mulher,30,3.0,Mais de 8 horas,Sim
+Homem,33,3.0,5-6 horas,Sim
+Mulher,24,4.0,7-8 horas,Não
+Mulher,33,4.0,Menos de 5 horas,Sim
+Mulher,31,1.0,Mais de 8 horas,Sim
+Mulher,31,5.0,7-8 horas,Sim
+Homem,26,4.0,5-6 horas,Sim
+Homem,33,2.0,Mais de 8 horas,Sim
+Mulher,33,4.0,7-8 horas,Não
+Homem,21,1.0,Menos de 5 horas,Não
+Homem,24,1.0,Menos de 5 horas,Não
+Mulher,32,4.0,Menos de 5 horas,Sim
+Homem,33,3.0,5-6 horas,Não
+Mulher,23,4.0,Mais de 8 horas,Sim
+Mulher,19,4.0,7-8 horas,Sim
+Mulher,23,2.0,Mais de 8 horas,Não
+Mulher,21,1.0,5-6 horas,Não
+Homem,34,1.0,Mais de 8 horas,Sim
+Homem,20,4.0,7-8 horas,Não
+Mulher,28,1.0,Menos de 5 horas,Sim
+Homem,26,4.0,Mais de 8 horas,Sim
+Homem,27,1.0,7-8 horas,Sim
+Homem,31,5.0,Menos de 5 horas,Sim
+Homem,25,2.0,Mais de 8 horas,Não
+Homem,20,1.0,Mais de 8 horas,Sim
+Homem,33,3.0,Menos de 5 horas,Não
+Mulher,25,3.0,5-6 horas,Sim
+Homem,19,5.0,5-6 horas,Sim
+Mulher,21,5.0,Mais de 8 horas,Não
+Mulher,24,4.0,Menos de 5 horas,Sim
+Homem,26,4.0,7-8 horas,Sim
+Homem,21,1.0,5-6 horas,Sim
+Homem,25,5.0,Mais de 8 horas,Não
+Homem,33,4.0,Menos de 5 horas,Não
+Mulher,23,5.0,7-8 horas,Não
+Mulher,18,5.0,7-8 horas,Sim
+Mulher,27,5.0,Menos de 5 horas,Não
+Mulher,20,3.0,Menos de 5 horas,Não
+Mulher,21,5.0,Mais de 8 horas,Não
+Mulher,28,2.0,5-6 horas,Não
+Mulher,24,2.0,5-6 horas,Não
+Mulher,23,2.0,7-8 horas,Sim
+Mulher,24,5.0,5-6 horas,Sim
+Mulher,34,2.0,5-6 horas,Não
+Mulher,30,3.0,5-6 horas,Não
+Homem,19,3.0,Mais de 8 horas,Sim
+Mulher,30,5.0,7-8 horas,Sim
+Homem,22,3.0,Menos de 5 horas,Sim
+Mulher,18,4.0,5-6 horas,Sim
+Homem,32,5.0,Mais de 8 horas,Sim
+Homem,18,3.0,5-6 horas,Sim
+Homem,21,1.0,5-6 horas,Não
+Homem,24,3.0,Menos de 5 horas,Sim
+Mulher,34,3.0,Mais de 8 horas,Sim
+Homem,34,1.0,Menos de 5 horas,Não
+Homem,19,5.0,7-8 horas,Sim
+Homem,23,1.0,Menos de 5 horas,Não
+Homem,25,2.0,Mais de 8 horas,Sim
+Homem,19,3.0,Menos de 5 horas,Não
+Mulher,25,1.0,7-8 horas,Não
+Homem,29,5.0,Mais de 8 horas,Não
+Homem,30,3.0,5-6 horas,Não
+Homem,29,2.0,7-8 horas,Não
+Homem,31,4.0,Mais de 8 horas,Sim
+Homem,25,1.0,7-8 horas,Sim
+Mulher,18,1.0,Mais de 8 horas,Sim
+Homem,33,3.0,Mais de 8 horas,Sim
+Homem,32,1.0,7-8 horas,Sim
+Homem,29,2.0,Mais de 8 horas,Não
+Homem,28,5.0,Menos de 5 horas,Não
+Mulher,21,5.0,Mais de 8 horas,Não
+Homem,31,2.0,Menos de 5 horas,Não
+Mulher,34,3.0,Menos de 5 horas,Sim
+Mulher,30,3.0,5-6 horas,Sim
+Mulher,28,4.0,5-6 horas,Sim
+Homem,29,1.0,Mais de 8 horas,Não
+Mulher,30,2.0,7-8 horas,Sim
+Mulher,30,5.0,Mais de 8 horas,Não
+Mulher,24,3.0,5-6 horas,Não
+Mulher,27,5.0,7-8 horas,Não
+Mulher,32,4.0,Menos de 5 horas,Sim
+Homem,25,4.0,Menos de 5 horas,Não
+Mulher,24,1.0,5-6 horas,Não
+Homem,22,3.0,5-6 horas,Não
+Homem,20,2.0,Mais de 8 horas,Sim
+Mulher,18,3.0,7-8 horas,Não
+Homem,20,3.0,5-6 horas,Sim
+Homem,20,3.0,Mais de 8 horas,Sim
+Homem,18,3.0,7-8 horas,Não
+Homem,27,2.0,5-6 horas,Não
+Mulher,31,1.0,5-6 horas,Não
+Mulher,22,1.0,7-8 horas,Sim
+Homem,34,5.0,Menos de 5 horas,Sim
+Homem,32,2.0,Menos de 5 horas,Sim
+Mulher,22,5.0,5-6 horas,Não
+Mulher,21,2.0,5-6 horas,Sim
+Mulher,34,2.0,Menos de 5 horas,Sim
+Homem,29,5.0,7-8 horas,Sim
+Mulher,26,4.0,Mais de 8 horas,Não
+Mulher,27,4.0,5-6 horas,Não
+Homem,30,3.0,7-8 horas,Sim
+Homem,24,3.0,Menos de 5 horas,Não
+Homem,27,3.0,5-6 horas,Não
+Homem,31,5.0,Mais de 8 horas,Não
+Mulher,30,5.0,7-8 horas,Não
+Homem,30,3.0,5-6 horas,Não
+Mulher,32,1.0,Menos de 5 horas,Sim
+Homem,33,2.0,Mais de 8 horas,Não
+Mulher,30,5.0,Menos de 5 horas,Não
+Homem,19,2.0,Mais de 8 horas,Não
+Mulher,21,1.0,5-6 horas,Sim
+Mulher,18,3.0,Mais de 8 horas,Não
+Homem,34,3.0,7-8 horas,Sim
+Mulher,31,5.0,Menos de 5 horas,Sim
+Homem,23,4.0,5-6 horas,Não
+Mulher,21,1.0,7-8 horas,Não
+Homem,23,3.0,7-8 horas,Sim
+Homem,28,4.0,Menos de 5 horas,Sim
+Mulher,28,3.0,7-8 horas,Sim
+Mulher,33,1.0,Mais de 8 horas,Não
+Mulher,29,4.0,7-8 horas,Sim
+Homem,23,1.0,5-6 horas,Sim
+Mulher,33,1.0,Menos de 5 horas,Não
+Mulher,28,3.0,Menos de 5 horas,Não
+Mulher,19,1.0,Mais de 8 horas,Não
+Homem,24,4.0,7-8 horas,Não
+Mulher,28,1.0,7-8 horas,Não
+Homem,34,3.0,5-6 horas,Não
+Homem,29,1.0,5-6 horas,Sim
+Mulher,24,4.0,7-8 horas,Sim
+Mulher,29,5.0,7-8 horas,Não
+Mulher,18,2.0,7-8 horas,Não
+Mulher,21,3.0,7-8 horas,Sim
+Mulher,28,4.0,Mais de 8 horas,Não
+Homem,19,4.0,5-6 horas,Não
+Homem,26,5.0,Menos de 5 horas,Sim
+Mulher,27,4.0,5-6 horas,Não
+Mulher,22,5.0,7-8 horas,Sim
+Mulher,27,3.0,5-6 horas,Não
+Mulher,31,5.0,Mais de 8 horas,Não
+Homem,28,3.0,Mais de 8 horas,Não
+Homem,29,3.0,7-8 horas,Não
+Mulher,27,5.0,5-6 horas,Sim
+Mulher,24,1.0,5-6 horas,Sim
+Homem,31,1.0,Mais de 8 horas,Não
+Mulher,32,3.0,7-8 horas,Sim
+Mulher,24,1.0,7-8 horas,Sim
+Mulher,25,5.0,7-8 horas,Não
+Mulher,31,4.0,7-8 horas,Sim
+Mulher,34,2.0,7-8 horas,Não
+Mulher,32,3.0,5-6 horas,Sim
+Mulher,22,1.0,Mais de 8 horas,Sim
+Mulher,29,3.0,5-6 horas,Sim
+Mulher,25,3.0,7-8 horas,Não
+Homem,27,5.0,Menos de 5 horas,Sim
+Mulher,18,4.0,5-6 horas,Não
+Mulher,30,2.0,Menos de 5 horas,Não
+Homem,21,2.0,Mais de 8 horas,Sim
+Homem,20,3.0,7-8 horas,Sim
+Homem,28,3.0,5-6 horas,Sim
+Mulher,20,3.0,7-8 horas,Sim
+Homem,30,3.0,7-8 horas,Sim
+Mulher,21,3.0,Menos de 5 horas,Sim
+Homem,18,5.0,Menos de 5 horas,Sim
+Mulher,29,2.0,7-8 horas,Sim
+Mulher,29,3.0,5-6 horas,Não
+Homem,32,5.0,5-6 horas,Sim
+Mulher,29,2.0,Menos de 5 horas,Não
+Homem,25,5.0,Mais de 8 horas,Sim
+Mulher,32,1.0,Mais de 8 horas,Sim
+Mulher,28,3.0,Mais de 8 horas,Sim
+Homem,24,3.0,Menos de 5 horas,Sim
+Mulher,19,1.0,Mais de 8 horas,Não
+Homem,30,3.0,Menos de 5 horas,Sim
+Homem,32,3.0,7-8 horas,Sim
+Homem,21,1.0,5-6 horas,Sim
+Mulher,20,3.0,Mais de 8 horas,Sim
+Homem,26,1.0,5-6 horas,Sim
+Homem,20,2.0,Menos de 5 horas,Não
+Homem,32,3.0,5-6 horas,Sim
+Homem,24,4.0,7-8 horas,Não
+Homem,21,1.0,Menos de 5 horas,Sim
+Homem,28,4.0,7-8 horas,Sim
+Mulher,34,1.0,7-8 horas,Não
+Homem,23,1.0,7-8 horas,Não
+Mulher,32,5.0,5-6 horas,Sim
+Mulher,28,4.0,Menos de 5 horas,Sim
+Homem,22,2.0,7-8 horas,Sim
+Homem,22,2.0,Menos de 5 horas,Não
+Mulher,20,3.0,7-8 horas,Sim
+Mulher,24,5.0,7-8 horas,Sim
+Homem,29,1.0,Menos de 5 horas,Sim
+Mulher,19,1.0,Menos de 5 horas,Não
+Mulher,22,2.0,Menos de 5 horas,Sim
+Mulher,31,3.0,7-8 horas,Não
+Mulher,23,1.0,Mais de 8 horas,Sim
+Mulher,22,1.0,7-8 horas,Não
+Homem,25,3.0,Mais de 8 horas,Sim
+Homem,21,2.0,5-6 horas,Sim
+Homem,25,1.0,Mais de 8 horas,Não
+Homem,28,5.0,Menos de 5 horas,Não
+Homem,20,3.0,Menos de 5 horas,Não
+Mulher,27,2.0,5-6 horas,Não
+Mulher,21,5.0,5-6 horas,Não
+Homem,34,4.0,7-8 horas,Sim
+Mulher,28,3.0,7-8 horas,Não
+Homem,29,3.0,7-8 horas,Sim
+Homem,26,5.0,Mais de 8 horas,Não
+Homem,24,2.0,Menos de 5 horas,Sim
+Mulher,23,3.0,5-6 horas,Não
+Homem,33,4.0,Mais de 8 horas,Não
+Homem,18,5.0,Mais de 8 horas,Não
