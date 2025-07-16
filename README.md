@@ -26,7 +26,7 @@ O objetivo principal é identificar correlações que possam subsidiar política
 ```
 
 ## Dataset
-Arquivo: `estudantes_depressao.csv`  
+Arquivo: `estudantes_depressao.csv`
 Abaixo, a lista de variáveis presentes:
 
 | Coluna | Descrição |
@@ -37,6 +37,8 @@ Abaixo, a lista de variáveis presentes:
 | `duracao_do_sono` | Faixa de horas de sono por noite (`Menos de 5 horas`, `5-6 horas`, `7-8 horas`, `Mais de 8 horas`) |
 | `voce_ja_teve_pensamentos_suicidas` | Histórico de pensamentos suicidas (`Sim` / `Não`) |
 | `depressao` | Indicação de depressão (`Sim` / `Não`) |
+
+O conjunto possui **501 observações** e representa uma amostra reduzida do estudo original.
 
 > Fontes de dados:  
 > • Base derivada utilizada neste projeto: [Depression Student Dataset – Kaggle](https://www.kaggle.com/datasets/ikynahidwin/depression-student-dataset/data)  
@@ -54,6 +56,7 @@ install.packages(c(
   "ggplot2"    # visualizações (já presente no tidyverse)
 ))
 ```
+Caso utilize o ambiente `renv`, certifique-se de ter acesso à internet para baixar as dependências. Em ambientes offline, execute `R --vanilla` ou defina `RENV_CONFIG_AUTOLOAD=FALSE` e instale manualmente os pacotes antes de rodar o script.
 
 ## Passo a Passo para Execução
 1. Clone ou faça download deste repositório.
@@ -61,6 +64,7 @@ install.packages(c(
    ```bash
    Rscript Analise_Caio_Costa_Nalanda_Xavier.R
    ```
+   Caso o `renv` tente iniciar automaticamente e não haja conexão com a internet, execute o comando acima com `RENV_CONFIG_AUTOLOAD=FALSE`.
 3. O script irá:
    * Carregar/instalar automaticamente os pacotes necessários;
    * Ler `estudantes_depressao.csv`;
