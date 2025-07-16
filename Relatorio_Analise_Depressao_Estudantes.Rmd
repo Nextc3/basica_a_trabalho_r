@@ -1,0 +1,231 @@
+---
+title: "Análise de Depressão em Estudantes Indianos"
+author: |
+  Caio Costa Cavalcante  
+  Nalanda Xavier da Silva
+date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    theme: cosmo
+header-includes:
+  - \usepackage{pdfpages}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo       = TRUE,   # mostrar código
+  warning    = FALSE,
+  message    = FALSE,
+  fig.width  = 7,
+  fig.height = 4
+)
+```
+
+# Introdução {#introducao}
+
+A saúde mental em ambientes acadêmicos vem recebendo atenção crescente devido ao aumento dos casos de **depressão** e **pensamentos suicidas** entre estudantes. Este relatório apresenta uma análise exploratória baseada em um recorte de dados de estudantes universitários na Índia.
+
+# Objetivos {#objetivos}
+
+-   Estimar a prevalência de depressão e pensamentos suicidas.\
+-   Investigar fatores de risco potenciais (pressão acadêmica, duração do sono, idade e gênero).\
+-   Gerar tabelas e visualizações que possam subsidiar intervenções de saúde mental.
+
+# Fontes de Dados {#dados}
+
+| Origem | Link |
+|----|----|
+| Base derivada usada nesta análise | <https://www.kaggle.com/datasets/ikynahidwin/depression-student-dataset/data> |
+| Dataset original completo | <https://www.kaggle.com/datasets/sumansharmadataworld/depression-surveydataset-for-analysis> |
+
+A base `estudantes_depressao.csv` presente neste repositório é um subconjunto limpo e simplificado (≈100 linhas) da fonte acima, adequado para fins didáticos.
+
+## Dicionário de Variáveis
+
+| Nome | Tipo | Descrição |
+|----|----|----|
+| `genero` | *Factor* | Sexo biológico (`Homem`, `Mulher`) |
+| `idade` | *Inteiro* | Idade do(a) estudante em anos |
+| `nivel_de_pressao_academica` | *Numérico (1–5)* | Grau de pressão acadêmica percebida |
+| `duracao_do_sono` | *Fator ordinal* | Faixa de horas de sono por noite |
+| `voce_ja_teve_pensamentos_suicidas` | *Fator* | Relato de pensamentos suicidas (`Sim`, `Não`) |
+| `depressao` | *Fator* | Indicação de depressão (`Sim`, `Não`) |
+
+# Preparação do Ambiente {#ambiente}
+
+```{r packages}
+# Pacotes necessários
+required_pkgs <- c("readr", "tidyverse", "janitor", "flextable", "ggplot2")
+installed     <- required_pkgs %in% installed.packages()[, "Package"]
+if (any(!installed)) install.packages(required_pkgs[!installed])
+
+# Carregar pacotes
+lapply(required_pkgs, library, character.only = TRUE)
+```
+
+# Importação dos Dados {#importacao}
+
+```{r leitura}
+base <- read_csv("estudantes_depressao.csv") %>%
+  clean_names() # janitor: colunas em snake_case
+
+glimpse(base)
+```
+
+# Análise Exploratória {#eda}
+
+## Pensamentos Suicidas
+
+```{r suicidas}
+pensamentos_freq <- base %>%
+  count(voce_ja_teve_pensamentos_suicidas) %>%
+  mutate(percentual = 100 * n / sum(n))
+
+flextable(pensamentos_freq) %>%
+  set_caption("Distribuição de Pensamentos Suicidas")
+```
+
+```{r suicidas_plot}
+# Gráfico de pizza
+pensamentos_freq %>%
+  ggplot(aes(x = "", y = percentual, fill = voce_ja_teve_pensamentos_suicidas)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y") +
+  geom_label(aes(label = sprintf("%s\n%.1f%%", voce_ja_teve_pensamentos_suicidas, percentual)),
+             position = position_stack(vjust = 0.5)) +
+  labs(title = "Pensamentos Suicidas entre Estudantes", fill = "Pensamentos Suicidas") +
+  theme_void()
+```
+
+## Pressão Acadêmica
+
+```{r pressao}
+base %>%
+  ggplot(aes(x = factor(nivel_de_pressao_academica))) +
+  geom_bar(fill = "#2a9d8f") +
+  labs(x = "Nível de Pressão", y = "Frequência", title = "Pressão Acadêmica percebida")
+```
+
+## Duração do Sono
+
+```{r sono}
+base %>%
+  ggplot(aes(x = duracao_do_sono, fill = duracao_do_sono)) +
+  geom_bar() +
+  labs(x = "Horas de Sono", y = "Frequência", title = "Distribuição da Duração do Sono") +
+  theme_minimal()
+```
+
+## Idade
+
+```{r idade}
+base %>%
+  ggplot(aes(x = idade)) +
+  geom_histogram(bins = 10, fill = "#e76f51", color = "white") +
+  labs(title = "Histograma da Idade dos Estudantes", x = "Idade (anos)", y = "Contagem")
+```
+
+## Análises Bivariadas
+
+### Pressão Acadêmica × Pensamentos Suicidas
+
+```{r bivar_pressao_suicidas}
+base %>%
+  ggplot(aes(x = factor(nivel_de_pressao_academica), fill = voce_ja_teve_pensamentos_suicidas)) +
+  geom_bar(position = "fill") +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(x = "Nível de Pressão", y = "%", fill = "Pensamentos Suicidas",
+       title = "Pressão Acadêmica vs. Pensamentos Suicidas")
+```
+
+### Duração do Sono × Depressão
+
+```{r bivar_sono_depressao}
+base %>%
+  ggplot(aes(x = duracao_do_sono, fill = depressao)) +
+  geom_bar(position = "fill") +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(x = "Horas de Sono", y = "%", fill = "Depressão",
+       title = "Duração do Sono vs. Depressão") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+# Conclusões {#conclusoes}
+
+-   Indicativos de maior prevalência de pensamentos suicidas entre estudantes submetidos a níveis elevados de pressão acadêmica.\
+-   Tendência de níveis mais altos de depressão entre aqueles com menos horas de sono.\
+-   Faixa etária avaliada apresenta distribuição relativamente uniforme, sem pico pronunciado de depressão por idade.
+
+# Próximos Passos {#next}
+
+1.  Aumentar a amostra com dados adicionais do dataset original.\
+2.  Aplicar modelos estatísticos (regressão logística) para quantificar a contribuição de cada fator.
+
+# Reprodutibilidade {#reproducibilidade}
+
+Para garantir que qualquer pessoa possa replicar esta análise, siga os passos abaixo:
+
+1. **Clone ou baixe** este repositório.
+2. Garanta que possui **R ≥ 4.0** e, preferencialmente, RStudio.
+3. Instale/atualize as dependências executando o _chunk_ `Pacotes necessários` ou, manualmente:
+
+```r
+install.packages(c("readr", "tidyverse", "janitor", "flextable", "ggplot2", "rmarkdown"))
+```
+
+4. Para **reproduzir integralmente o relatório** em HTML ou PDF, rode:
+
+```r
+rmarkdown::render("Relatorio_Analise_Depressao_Estudantes.Rmd")
+```
+
+5. Caso prefira utilizar apenas o script, execute:
+
+```r
+source("Analise_Caio_Costa_Nalanda_Xavier.R")
+```
+
+## Estrutura do Projeto
+
+```
+├── Analise_Caio_Costa_Nalanda_Xavier.R   # Script de análise
+├── Relatorio_Analise_Depressao_Estudantes.Rmd  # Este relatório
+├── estudantes_depressao.csv              # Base de dados
+├── Relatório científico - Nalanda Xavier da Silva e Caio Costa Cavalcante.pdf # Anexo
+└── README.md
+```
+
+Isso garantirá que tabelas, figuras e anexos sejam gerados exatamente como descrito aqui.
+
+# Session Info
+
+```{r session}
+sessionInfo()
+```
+
+# Anexo – Relatório Científico Completo
+
+```{=latex}
+\includepdf[pages=-]{Relatório científico - Nalanda Xavier da Silva e Caio Costa Cavalcante.pdf}
+```
+
+## Anexo – Relatório Integrado de Código {#anexo_juntos}
+
+```{=latex}
+\includepdf[pages=-]{JuntosCodigoRelatorio.pdf}
+```
+
+# Apêndice – Código R Completo {#apendice}
+
+```{r appendice_codigo, echo=FALSE, results='asis'}
+cat("```r\n")
+cat(readLines("Analise_Caio_Costa_Nalanda_Xavier.R"), sep = "\n")
+cat("\n```")
+```
